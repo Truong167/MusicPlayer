@@ -38,12 +38,10 @@ html {
 
 .dashboard {
   padding: 16px 16px 14px;
-  background: linear-gradient(
-    to right,
-    rgb(20, 212, 179),
-    rgb(20, 189, 208)
-  );
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   position: fixed;
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
   top: 0;
   width: 100%;
   max-width: 480px;
@@ -140,11 +138,7 @@ header h2 {
 .playlist {
   margin-top: 408px;
   padding: 12px;
-  background: linear-gradient(
-    to right,
-    rgb(20, 212, 179),
-    rgb(20, 189, 208)
-  );
+  background: linear-gradient(-45deg, #23d5ab, #23a6d5);
 }
 
 .song {
